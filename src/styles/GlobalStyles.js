@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     background: ${props => props.theme.colors.secondary};
     color: ${props => props.theme.colors.white};
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 14px;
   }
   button {

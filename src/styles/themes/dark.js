@@ -9,6 +9,7 @@ export default {
     darkpurple: "#23123B",
     gray: "#434E5E",
     lightgray: "#58677C",
+    lightergray: "#E1E1E1",
     white: "#FFF"
   }
 };

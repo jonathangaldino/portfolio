@@ -1,12 +1,13 @@
 import React from "react";
 
-import { Header, About, Skills } from "../components/";
+import { Header, About, Skills, HireMe } from "../components/";
 
 const Portfolio = () => (
   <>
     <Header />
     <About />
     <Skills />
+    <HireMe />
   </>
 );
 

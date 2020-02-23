@@ -45,7 +45,7 @@ const data = {
       ]
     }
   ],
-  contactTitle: "Wanna hire me",
+  contactTitle: "Wanna hire me?",
   mailTo: "jobs@galdino.dev",
   contactSubtitle: `Looking for someone to help build and deliver software in your team? Talk to me, by dropping na email to jobs@galdino.dev. I promise to answer very quick!`
 };

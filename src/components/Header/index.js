@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { Container, Centered, Link } from "./styles";
 
-const twitterLink = "https://twitter.com/johnzballad";
-const linkedinLink = "https://www.linkedin.com/in/jonathangaldinodev/";
-const githubink = "https://github.com/jonathangaldino";
+export const twitterLink = "https://twitter.com/johnzballad";
+export const linkedinLink = "https://www.linkedin.com/in/jonathangaldinodev/";
+export const githubink = "https://github.com/jonathangaldino";
 
 export default function Header() {
   return (

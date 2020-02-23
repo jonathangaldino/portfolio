@@ -5,7 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 50px;
-  background-color: ${props => props.theme.colors.primary};
+  background-color: ${props => props.theme.colors.secondary};
 `;
 
 export const Centered = styled.div`
@@ -23,7 +23,7 @@ export const Icon = styled.img`
 export const Link = styled.a`
   :visited,
   :link {
-    color: white;
+    color: ${props => props.theme.colors.primary};
     text-decoration: none;
   }
 `;

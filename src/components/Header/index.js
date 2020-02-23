@@ -11,15 +11,15 @@ export default function Header() {
   return (
     <Container>
       <Centered>
-        <Link href="https://www.twitter.com/johnzballad">
+        <Link href={twitterLink}>
           <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
         </Link>
 
-        <Link href="https://www.twitter.com/johnzballad">
+        <Link href={linkedinLink}>
           <FontAwesomeIcon icon={["fab", "linkedin-in"]} size="2x" />
         </Link>
 
-        <Link href="https://www.twitter.com/johnzballad">
+        <Link href={githubink}>
           <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
         </Link>
       </Centered>

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -13,8 +13,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    background: ${props => props.theme.colors.secondary};
-    color: ${props => props.theme.colors.white};
+    background: ${props => props.theme.colors.background};
+    color: #FFF;
     font-family: 'Roboto';
     font-size: 14px;
   }

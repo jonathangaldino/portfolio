@@ -1,14 +1,24 @@
+// 20200515173348
+// https://raw.githubusercontent.com/jonathangaldino/GoBarber/master/web/.eslintrc.json?token=ADKKLR3D3Q3XFHOHR5JG4G26ZA3SW
+
 {
-  "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
-  "extends": "airbnb",
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
   "globals": {
-    "Atomics": "readable",
-    "SharedArrayBuffer": "readable"
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -16,15 +26,48 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier"
+  ],
   "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "prettier/prettier": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-expressions": "off",
     "react/jsx-filename-extension": [
-      "error",
-      { "extensions": [".js", ".jsx"] }
+      1,
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
     ],
     "import/prefer-default-export": "off",
-    "react/jsx-one-expression-per-line": "off",
-    "react/destructuring-assignment": "off",
-    "import/no-extraneous-dependencies": "off"
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+
+      }
+    }
   }
 }

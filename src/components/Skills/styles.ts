@@ -18,6 +18,17 @@ export const Container = styled.section`
     width: 80%;
     margin-top: 85px;
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    max-width: 1170px;
+
+    @media (min-width: 875px) {
+      justify-content: space-between;
+      align-items: center;
+    }
+
     div {
       margin-bottom: 55px;
     }

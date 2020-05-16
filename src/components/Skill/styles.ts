@@ -34,14 +34,10 @@ export const Container = styled.div`
     align-self: flex-start;
     margin-left: 25px;
 
-    font-size: 14px;
+    font-size: 16px;
 
     li {
       margin: 10px 0px;
-
-      @media ${device.mobileM} {
-        font-size: 16px;
-      }
     }
   }
 `;

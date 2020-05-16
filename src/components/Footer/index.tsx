@@ -14,10 +14,10 @@ const Footer: React.FC = () => (
     <p>Looking for someone to help build and deliver software in your team?</p>
 
     <p>
-      Talk to me, by dropping an email to
-      <em>job@galdino.dev</em>
-. You can also find me on socials.
-</p>
+      Reach me by dropping an
+      <a href="mailto:job@galdino.dev">email</a>. You can also find me on
+      socials.
+    </p>
 
     <ul>
       <li>

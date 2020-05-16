@@ -29,10 +29,13 @@ export const Container = styled.section`
     text-align: center;
     font-size: 16px;
 
-    em {
+    width: 80%;
+
+    a {
       font-style: normal;
       color: ${props => props.theme.colors.emphasized};
       margin-left: 5px;
+      text-decoration: none;
     }
   }
 

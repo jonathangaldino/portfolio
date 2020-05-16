@@ -8,19 +8,28 @@
 
 # Scripts
 
-## Install dependencies
+Clone the repository:
+
+```bash
+$ git clone https://github.com/jonathangaldino/portfolio.git
+```
+
+Install dependencies, use inside the folder:
 
 ```bash
 $ yarn
 ```
 
-## Start development server
+## Development
+
+
+Start the development server
 
 ```bash
 $ yarn start
 ```
 
-## Build
+## Production
 
 ```bash
 $ yarn build
@@ -29,10 +38,6 @@ $ yarn build
 # Author
 
 [Jonathan Galdino](https://github.com/jonathangaldino)
-
-# Credits
-
-[Flaticon](https://www.flaticon.com) - For the backend, frontend/mobile, others and launch icons.
 
 # License
 

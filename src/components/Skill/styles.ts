@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import device from '../../utils/device';
+import { shade } from 'polished';
 
 export const Container = styled.div`
   background: ${props => props.theme.colors.skillbg};
+  transition: background 0.2s;
 
   width: 100%;
   max-width: 350px;
@@ -16,6 +17,10 @@ export const Container = styled.div`
   align-items: center;
 
   border-radius: 6px;
+
+  &:hover {
+    background: ${props => shade(0.2, props.theme.colors.skillbg)};
+  }
 
   img {
     width: 62.75px;

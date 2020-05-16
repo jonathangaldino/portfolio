@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.section`
   display: flex;
@@ -7,12 +8,18 @@ export const Container = styled.section`
   justify-content: space-evenly;
 
   background: ${props => props.theme.colors.skillbg};
+  transition: background 0.2s;
+
   padding-top: 20px;
   padding-bottom: 15px;
 
   height: 400px;
 
   color: #fff;
+
+  &:hover {
+    background: ${props => shade(0.2, props.theme.colors.skillbg)};
+  }
 
   img {
     width: 75px;

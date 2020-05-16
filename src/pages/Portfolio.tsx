@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Me from '../components/Me';
+
 const Portfolio: React.FC = () => (
-  <div>
-    <h1>alo</h1>
-  </div>
+  <>
+    <Me />
+  </>
 );
 
 export default Portfolio;

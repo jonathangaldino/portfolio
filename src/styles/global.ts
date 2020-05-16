@@ -14,9 +14,10 @@ const GlobalStyle = createGlobalStyle`
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     background: ${props => props.theme.colors.background};
-    color: #FFF;
+    color: #000;
     font-family: 'Roboto';
     font-size: 14px;
+    font-weight: normal;
   }
   button {
     cursor: pointer;

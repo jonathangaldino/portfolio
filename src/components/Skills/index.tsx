@@ -20,8 +20,8 @@ const Skills: React.FC = () => (
         skills={[
           'NodeJS',
           'Web frameworks (Express/Koa)',
-          'SQL',
-          'No-SQL',
+          'SQL & No-SQL',
+          'APIs RESTful',
           'Tests',
         ]}
         image={backendImg}

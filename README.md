@@ -1,12 +1,12 @@
-# Portfolio
+# ⭐ Portfolio
 
-> My portfolio made with React + Styled-components
+> 😎 This is my portfolio - created with 💗 using React/TS & Styled-Components
 
-## Demo
+## 📌 Demo
 
-![About](https://media.giphy.com/media/Kx8pild1P9792xNGtA/giphy.gif)
+> ❌ Not available yet
 
-# Scripts
+# 📄 Scripts
 
 Clone the repository:
 
@@ -20,7 +20,7 @@ Install dependencies, use inside the folder:
 $ yarn
 ```
 
-## Development
+## 🔨 Development
 
 
 Start the development server
@@ -29,16 +29,16 @@ Start the development server
 $ yarn start
 ```
 
-## Production
+## 💎 Production
 
 ```bash
 $ yarn build
 ```
 
-# Author
+# 👑 Author
 
 [Jonathan Galdino](https://github.com/jonathangaldino)
 
-# License
+# ❗ License
 
 MIT

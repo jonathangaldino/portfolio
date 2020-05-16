@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import device from '../../utils/device';
 
 export const Container = styled.div`
   background: ${props => props.theme.colors.skillbg};
@@ -13,6 +14,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  border-radius: 6px;
 
   img {
     width: 62.75px;
@@ -31,8 +34,14 @@ export const Container = styled.div`
     align-self: flex-start;
     margin-left: 25px;
 
+    font-size: 14px;
+
     li {
       margin: 10px 0px;
+
+      @media ${device.mobileM} {
+        font-size: 16px;
+      }
     }
   }
 `;

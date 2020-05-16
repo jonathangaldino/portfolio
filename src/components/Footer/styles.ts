@@ -56,8 +56,21 @@ export const Container = styled.section`
       float: left;
       padding: 0px 15px;
 
+      svg#twitter-icon:hover {
+        color: #00aced;
+      }
+
+      svg#linkedin-icon:hover {
+        color: #2867b2;
+      }
+
+      svg#github-icon:hover {
+        color: #24292e;
+      }
+
       svg {
         color: #fff;
+        transition: color 0.2s;
       }
     }
   }

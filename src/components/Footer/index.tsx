@@ -15,26 +15,27 @@ const Footer: React.FC = () => (
 
     <p>
       Reach me by dropping an
-      <a href="mailto:job@galdino.dev">email</a>. You can also find me on
+      <a href="mailto:job@galdino.dev">email</a>
+. You can also find me on
       socials.
-    </p>
+</p>
 
     <ul>
       <li>
         <a href="https://twitter.com/johnzballad">
-          <FaTwitter size={22} />
+          <FaTwitter size={22} id="twitter-icon" />
         </a>
       </li>
 
       <li>
         <a href="https://www.linkedin.com/in/jonathangaldinodev/">
-          <FaLinkedinIn size={22} />
+          <FaLinkedinIn size={22} id="linkedin-icon" />
         </a>
       </li>
 
       <li>
         <a href="https://github.com/jonathangaldino">
-          <FaGithub size={22} />
+          <FaGithub size={22} id="github-icon" />
         </a>
       </li>
     </ul>

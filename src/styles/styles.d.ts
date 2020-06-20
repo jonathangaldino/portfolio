@@ -6,8 +6,15 @@ declare module 'styled-components' {
 
     colors: {
       background: string;
-      skillbg: string;
-      emphasized: string;
+      red: string;
+      black: string;
+      text: string;
+      blocks: {
+        pink: string;
+        blue: string;
+        green: string;
+        black: string;
+      }
     };
   }
 }

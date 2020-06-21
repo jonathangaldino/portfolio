@@ -6,17 +6,16 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    font-family: Saira, sans-serif;
   }
 
   body {
-    background: ${props => props.theme.colors.background};
-    color: #FFF;
+    background: '#FFF';
     -webkit-font-smoothing: antialiased;
-    font-family: Roboto, sans-serif;
-    color: ${props => props.theme.colors.text};
+    color: ${props => props.theme.colors.texts};
   }
 
-  html, body {
+  html, body, #__next {
     height: 100%;
   }
 

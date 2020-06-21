@@ -2,6 +2,7 @@
 import Head from 'next/head';
 
 import * as Styled from './_indexStyles';
+import Home from '@components/Home';
 
 
 const Portfolio = () => {
@@ -11,6 +12,7 @@ const Portfolio = () => {
         <title>Jonathan Galdino</title>
       </Head>
 
+      <Home />
     
     </Styled.Container>
   )

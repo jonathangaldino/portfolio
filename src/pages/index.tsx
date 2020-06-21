@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import * as Styled from './_indexStyles';
 import Home from '@components/Home';
+import Stack from '@components/Stack';
 
 
 const Portfolio = () => {
@@ -13,6 +14,7 @@ const Portfolio = () => {
       </Head>
 
       <Home />
+      <Stack />
     
     </Styled.Container>
   )

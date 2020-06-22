@@ -10,9 +10,9 @@ const Home = () => {
         <strong>Node.js Back-end Developer &amp; Fullstack aspiring</strong>
       </Styled.Me>
 
-      <Styled.Button>
+      {/* <Styled.Button>
         Welcome
-      </Styled.Button>
+      </Styled.Button> */}
     </Styled.Container>
   )
 }

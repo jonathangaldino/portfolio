@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  background-color: #FFF;
+  background-color: ${props => props.theme.colors.background};
   background-image: url("/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ export const Me = styled.div`
   h1 {
     font-weight: bold;
     font-size: 72px;
-    text-shadow: 0px 5px 0px #000;
+    text-shadow: 0px 5px 0px ${props => props.theme.colors.background};
   }
 
   strong {
@@ -38,9 +38,9 @@ export const Button = styled.button`
   border-radius: 10px;
   border: 0;
   
-  background: ${props => props.theme.colors.iconsAndSocials};
+  background: ${props => props.theme.colors.texts};
   
-  color: ${props => props.theme.colors.texts};
+  color: ${props => props.theme.colors.textsInverse};
   font-size: 16px;
   font-weight: bold;
 `;

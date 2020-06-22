@@ -5,10 +5,11 @@ declare module 'styled-components' {
     title: string;
 
     colors: {
-      bgPrimary: string;
-      bgSecondary: string;
+      background: string;
       texts: string;
-      iconsAndSocials: string;
+      textsInverse: string;
+      skillbar: string;
+      skillbarfulfilled: string;
     };
   }
 }

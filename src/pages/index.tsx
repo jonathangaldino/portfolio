@@ -3,10 +3,10 @@ import Head from 'next/head';
 
 import * as Styled from './_indexStyles';
 import Home from '@components/Home';
-import Stack from '@components/Stack';
+import AboutMe from '@components/AboutMe';
 
 
-const Portfolio = () => {
+const App = () => {
   return (
     <Styled.Container>
       <Head>
@@ -14,10 +14,10 @@ const Portfolio = () => {
       </Head>
 
       <Home />
-      <Stack />
+      <AboutMe />
     
     </Styled.Container>
   )
 }
 
-export default Portfolio;
+export default App;

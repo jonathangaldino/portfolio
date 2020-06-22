@@ -2,9 +2,10 @@ export default {
   title: 'dark',
 
   colors: {
-    bgPrimary: '#040E2C',
-    bgSecondary: '#1A2137',
+    background: '#000',
     texts: '#FFF',
-    iconsAndSocials: '#0A1D56'
+    textsInverse: '#000',
+    skillbar: '#7A7A7A',
+    skillbarfulfilled: '#FFF'
   },
 };

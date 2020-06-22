@@ -4,6 +4,7 @@ import Head from 'next/head';
 import * as Styled from './_indexStyles';
 import Home from '@components/Home';
 import AboutMe from '@components/AboutMe';
+import Portfolio from '@components/Portfolio';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
 
       <Home />
       <AboutMe />
+      <Portfolio />
     
     </Styled.Container>
   )

@@ -7,7 +7,7 @@ export const Container = styled.section`
   h1 {
     align-self: center;
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 48px;
     margin-top: 70px;
     margin-bottom: 110px;
   }
@@ -54,15 +54,12 @@ export const Resume = styled.a`
   align-items: center;
   justify-content: space-between;
 
-
   margin-top: 35px;
   padding: 0px 20px;
   
   border-top-right-radius: 22.5px;
   border-bottom-right-radius: 22.5px;
   background: ${props => props.theme.colors.texts};
-
-  align-self: center;
 
   img {
     width: 26px;

@@ -58,7 +58,7 @@ const AboutMe = () => {
           know about me is that i'm dedicated to be better, either professionally and personally, everyday.
         </h3>
 
-        <Styled.Resume to>
+        <Styled.Resume>
           <img src="/download.svg" alt="Download Icon" />
           <p>Download Resume</p>
         </Styled.Resume>

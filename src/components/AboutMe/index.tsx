@@ -12,7 +12,7 @@ const skills: Skill[] = [
     level: 0.80,
   },
   {
-    name: 'ReactJS',
+    name: 'React',
     level: 0.70,
   },
   {
@@ -20,16 +20,16 @@ const skills: Skill[] = [
     level: 0.70,
   },
   {
-    name: 'Git & Gitflow',
-    level: 0.70,
+    name: 'Typescript',
+    level: 0.55,
   },
   {
-    name: 'MySQL & PostgreSQL',
+    name: 'SQL & No-SQL databases',
     level: 0.8,
   },
   {
-    name: 'MongoDB & Redis',
-    level: 0.65,
+    name: 'English',
+    level: 0.75,
   }
 ];
   
@@ -43,7 +43,7 @@ const AboutMe = () => {
         <img src="/me.png" alt="Jonathan Galdino" />
 
         <Styled.TechSkill>
-          <h3>My skills</h3>
+          <h3>My qualifications</h3>
 
           {skills.map(skill => <Tech level={skill.level} name={skill.name} />)}
         </Styled.TechSkill>
@@ -51,11 +51,11 @@ const AboutMe = () => {
 
       <Styled.Text>
         <h3>
-          My name is Jonathan Galdino, I’m from Rio de Janeiro, Brazil. I work for small and medium sized agencies, as a 
-          freelancer, providing software with excellence. Now, i’m working at PlayerUm, a software company stablished in 
-          Rio, as a back-end developer. In my daily routine I have the pleasure to work with Typescript, GraphQL, Docker, 
-          VSCode, Slack, Discord & Spotify, I also have experience around Windows, Linux and OSX systems. What you should 
-          know about me is that i'm dedicated to be better, either professionally and personally, everyday.
+          My name is Jonathan and I’m from Rio de Janeiro, Brazil. I work for small and medium sized agencies, as a 
+          freelancer. Now, I’m working at PlayerUm, a software company stablished in 
+          Copacabaca, Rio de Janeiro, as a back-end developer. In my daily routine I have the pleasure to work with Typescript and Javascript, GraphQL, Docker, 
+          MySQL & MongoDB databases, I also have experience around Windows, Linux and OSX systems.
+          I like to learn new techs and techniques that can help achieve code greatness. I am also good at FPS games.
         </h3>
 
         <Styled.Resume>

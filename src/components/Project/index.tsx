@@ -1,12 +1,19 @@
-import * as Styled from './styles';
+import * as S from './styles';
 import { IProject } from '../Portfolio/data';
+import Links from './Links';
 
-const Project: React.FC<IProject> = ({ title, description, imageSrc }) => {
+const Project: React.FC<IProject> = ({ title, description, imageSrc, links }) => {
   return (
-    <Styled.Container image={imageSrc}>
-      <h1>{title}</h1>
-      <h3>{description}</h3>
-    </Styled.Container>
+    <S.Container>
+      <img src={imageSrc} alt={`${title}`} />
+
+      <S.Content>
+        <h1>{title}</h1>
+        <h3>{description}</h3>
+
+        <Links {...links} />
+      </S.Content>
+    </S.Container>
   )
 }
 

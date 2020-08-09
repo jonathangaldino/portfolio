@@ -5,6 +5,7 @@ import * as Styled from './_indexStyles';
 import Home from '@components/Home';
 import AboutMe from '@components/AboutMe';
 import Portfolio from '@components/Portfolio';
+import Layout from '@components/Layout';
 
 
 const App = () => {
@@ -14,10 +15,12 @@ const App = () => {
         <title>Jonathan Galdino</title>
       </Head>
 
-      <Home />
-      <AboutMe />
-      <Portfolio />
-    
+      <Home /> 
+      
+      <Layout>
+        <AboutMe />
+        <Portfolio />
+      </Layout>    
     </Styled.Container>
   )
 }

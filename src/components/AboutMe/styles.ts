@@ -19,20 +19,17 @@ export const Middle = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-self: center;
-
-  width: 870px;
 
   img {
     width: 350px;
     height: 350px;
+    border-radius: 4px;
   }
 `;
 
 export const Text = styled.div`
   margin-top: 85px;
   max-width: 870px;
-  align-self: center;
 
   h3 {
     font-size: 18px;

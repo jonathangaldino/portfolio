@@ -1,22 +1,19 @@
 import styled from 'styled-components';
 
-interface ContainerProps {
-  image: string;
-}
-
-export const Container = styled.div<ContainerProps>`
-  background-image: ${props => `url('${props.image}')`};
-  background-repeat: no-repeat;
-
-  width: 465px;
-  height: 310px;
-
+export const Container = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: row;
 
-  padding-left: 40px;
-  padding-bottom: 30px;
+  img {
+    width: 400px;
+    height: 310px;
+    border-radius: 6px;
+
+  }
+`;
+
+export const Content = styled.div`
+  margin-left: 25px;
 
   h1, h3 {
     margin: 0;
@@ -25,10 +22,13 @@ export const Container = styled.div<ContainerProps>`
   }
 
   h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   h3 {
     font-size: 16px;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: 
   }
 `;

@@ -6,6 +6,7 @@ import Home from '@components/Home';
 import AboutMe from '@components/AboutMe';
 import Portfolio from '@components/Portfolio';
 import Layout from '@components/Layout';
+import Contact from '@components/Contact';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Layout>
         <AboutMe />
         <Portfolio />
+        <Contact />
       </Layout>    
     </Styled.Container>
   )

@@ -9,7 +9,6 @@ export const Container = styled.div<ContainerProps>`
   width: 450px;
   height: 30px;
 
-  
   border-top-right-radius: 22.5px;
   border-bottom-right-radius: 22.5px;
   background: ${props => props.theme.colors.skillbar};
@@ -17,6 +16,15 @@ export const Container = styled.div<ContainerProps>`
   
   ${media.lessThan("large")`
     max-width: 400px;
+  `}
+
+  ${media.lessThan("small")`
+    max-width: 300px;
+    padding: 0;
+    div {
+      max-width: 300px;
+
+    }
   `}
 
   div {

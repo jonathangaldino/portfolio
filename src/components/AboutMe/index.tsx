@@ -52,9 +52,9 @@ const AboutMe = () => {
 
       <Styled.Text>
         <h3>
-          My name is Jonathan and I’m from Rio de Janeiro, Brazil. I work for small and medium sized agencies, as a 
+          My name is Jonathan and I’m from Rio, Brazil. I started my career as a 
           freelancer. Now, I’m working at PlayerUm, a software company stablished in 
-          Copacabaca, Rio de Janeiro, as a back-end developer. In my daily routine I have the pleasure to work with Typescript and Javascript, GraphQL, Docker, 
+          Copacabana, Rio de Janeiro, as a back-end developer. In my daily routine I have the pleasure to work with Typescript and Javascript, GraphQL, Docker, 
           MySQL & MongoDB databases. I don't limit myself to a specific technology or ecosystem, I prefer learn what can help me achieve my goals. I'm gaming addicted.
         </h3>
 

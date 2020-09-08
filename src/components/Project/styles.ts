@@ -11,17 +11,25 @@ export const Container = styled.div`
     border-radius: 6px;
   }
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     flex-direction: column;
     align-items: center;
     max-width: 400px;
+  `}
+
+  ${media.lessThan("small")`
+    max-width: 85vw;
+
+    img {
+      width: 85vw;
+    }
   `}
 `;
 
 export const Content = styled.div`
   margin-left: 25px;
 
-  ${media.lessThan("medium")`
+  ${media.lessThan("large")`
     margin-left: 0;
     margin-top: 25px;
   `}

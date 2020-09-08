@@ -12,8 +12,8 @@ const Layout: React.FunctionComponent = ({ children }) => (
 export default Layout;
 
 const Container = styled.main`
-  padding: 0 10vw 30px; /* top | horizontal | bottom */
   width: 100%;
+  padding: 0 20% 30px;
 
   ${media.lessThan("medium")`
     margin: 0;

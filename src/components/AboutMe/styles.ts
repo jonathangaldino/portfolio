@@ -27,7 +27,7 @@ export const Middle = styled.div`
     border-radius: 4px;
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 980px) {
     flex-direction: column;
     align-items: center;
 
@@ -50,23 +50,21 @@ export const Text = styled.div`
     text-align: justify;
   }
 
-  ${media.lessThan("medium")`
+  /* ${media.lessThan("medium")`
     width: 80vw;
-  `}
+  `} */
 `;
 
 export const TechSkill = styled.div`
+  margin-left: 30px;
+
   h3 {
     margin-bottom: 20px;
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 980px) {
     margin-top: 80px;
   }
-
-  ${media.lessThan("medium")`
-    margin-left: 0;
-  `}
 
   ${media.lessThan("small")`
     max-width: 350px;

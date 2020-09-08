@@ -2,10 +2,6 @@
 
 > 😎 This is my portfolio - created with 💗 using React/TS & Styled-Components
 
-## 📌 Demo
-
-> ❌ Not available yet
-
 # 📄 Scripts
 
 Clone the repository:
@@ -26,7 +22,7 @@ $ yarn
 Start the development server
 
 ```bash
-$ yarn start
+$ yarn dev
 ```
 
 ## 💎 Production

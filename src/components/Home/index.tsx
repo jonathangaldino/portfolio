@@ -7,10 +7,6 @@ const Home = () => {
         <h1>Jonathan Galdino</h1>
         <strong>Node.js Back-end Developer &amp; Fullstack aspiring</strong>
       </Styled.Me>
-
-      {/* <Styled.Button>
-        Welcome
-      </Styled.Button> */}
     </Styled.Container>
   )
 }

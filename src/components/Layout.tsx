@@ -10,7 +10,7 @@ const Layout: React.FC = ({ children }) => (
 
 
 const Container = styled.main`
-  padding: 0 20% 30px; /* top | horizontal | bottom */
+  padding: 0 25% 30px; /* top | horizontal | bottom */
 `;
 
 

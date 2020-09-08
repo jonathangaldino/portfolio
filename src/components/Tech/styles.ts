@@ -29,6 +29,7 @@ export const Container = styled.div<ContainerProps>`
     p {
       margin: 0;
       color: ${props => props.theme.colors.textsInverse};
+      font-weight: 500;
     }
   }
 

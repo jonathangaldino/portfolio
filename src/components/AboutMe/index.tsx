@@ -1,5 +1,6 @@
 import * as Styled from './styles';
 import Tech from '@components/Tech';
+import DownloadButton from '@components/DownloadButton';
 
 interface Skill {
   name: string;
@@ -28,8 +29,8 @@ const skills: Skill[] = [
     level: 0.8,
   },
   {
-    name: 'English',
-    level: 0.75,
+    name: 'GraphQL',
+    level: 0.50,
   }
 ];
   
@@ -43,7 +44,7 @@ const AboutMe = () => {
         <img src="/me.png" alt="Jonathan Galdino" />
 
         <Styled.TechSkill>
-          <h3>My qualifications</h3>
+          <h3>Qualifications & Experiences</h3>
 
           {skills.map(skill => <Tech level={skill.level} name={skill.name} />)}
         </Styled.TechSkill>
@@ -54,14 +55,13 @@ const AboutMe = () => {
           My name is Jonathan and I’m from Rio de Janeiro, Brazil. I work for small and medium sized agencies, as a 
           freelancer. Now, I’m working at PlayerUm, a software company stablished in 
           Copacabaca, Rio de Janeiro, as a back-end developer. In my daily routine I have the pleasure to work with Typescript and Javascript, GraphQL, Docker, 
-          MySQL & MongoDB databases, I also have experience around Windows, Linux and OSX systems.
-          I like to learn new techs and techniques that can help achieve code greatness. I am also good at FPS games.
+          MySQL & MongoDB databases. I don't limit myself to a specific technology or ecosystem, I prefer learn what can help me achieve my goals. I'm gaming addicted.
         </h3>
 
-        <Styled.Resume>
+        <DownloadButton text="Resume">
           <img src="/download.svg" alt="Download Icon" />
-          <p>Download Resume</p>
-        </Styled.Resume>
+          <p>Resume</p>
+        </DownloadButton>
       </Styled.Text>
     </Styled.Container>
   )

@@ -12,17 +12,15 @@ const Layout: React.FunctionComponent = ({ children }) => (
 export default Layout;
 
 const Container = styled.main`
-  padding: 0 25% 30px; /* top | horizontal | bottom */
-
-  ${media.lessThan("large")`
-    padding: 0 5% 30px;
-  `}
+  padding: 0 10vw 30px; /* top | horizontal | bottom */
+  width: 100%;
 
   ${media.lessThan("medium")`
+    margin: 0;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
   `}
-
 `;
 

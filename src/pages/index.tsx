@@ -1,7 +1,7 @@
 
 import Head from 'next/head';
+import styled from 'styled-components';
 
-import * as Styled from './_indexStyles';
 import Home from '@components/Home';
 import AboutMe from '@components/AboutMe';
 import Portfolio from '@components/Portfolio';
@@ -11,7 +11,7 @@ import Contact from '@components/Contact';
 
 const App = () => {
   return (
-    <Styled.Container>
+    <Container>
       <Head>
         <title>Jonathan Galdino</title>
       </Head>
@@ -23,8 +23,13 @@ const App = () => {
         <Portfolio />
         <Contact />
       </Layout>    
-    </Styled.Container>
+    </Container>
   )
 }
+
+export const Container = styled.section`
+  height: 100%;
+  width: 100%;
+`;
 
 export default App;

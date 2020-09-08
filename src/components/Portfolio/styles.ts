@@ -1,11 +1,14 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const Container = styled.section`
   display: flex;
   flex-direction: column;
 
-  /* background: gray; */
   margin-top: 80px;
+
+  ${media.lessThan("small")`
+  `}
 `;
 
 export const Heading = styled.div`

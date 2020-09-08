@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 interface ContainerProps {
   level: number;
@@ -7,12 +8,16 @@ interface ContainerProps {
 export const Container = styled.div<ContainerProps>`
   width: 450px;
   height: 30px;
+
   
   border-top-right-radius: 22.5px;
   border-bottom-right-radius: 22.5px;
   background: ${props => props.theme.colors.skillbar};
   margin-bottom: 20px;
   
+  ${media.lessThan("large")`
+    max-width: 400px;
+  `}
 
   div {
     width: ${props => `calc(100% * ${props.level})`};

@@ -1,5 +1,5 @@
 import * as Styled from './styles';
-import Tech from '@components/Tech';
+import Tech from './Tech';
 import DownloadButton from '@components/DownloadButton';
 
 interface Skill {

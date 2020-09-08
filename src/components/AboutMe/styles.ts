@@ -14,7 +14,6 @@ export const Container = styled.section`
     margin-bottom: 110px;
   }
 
-  
 `;
 
 export const Middle = styled.div`
@@ -28,10 +27,14 @@ export const Middle = styled.div`
     border-radius: 4px;
   }
 
-  ${media.lessThan("medium")`
+  @media (max-width: 960px) {
     flex-direction: column;
     align-items: center;
-  `}
+
+    img {
+      /* max-width: 300px; */
+    }
+  }
 `;
 
 export const Text = styled.div`
@@ -46,20 +49,26 @@ export const Text = styled.div`
     align-self: center;
     text-align: justify;
   }
-`;
 
+  ${media.lessThan("medium")`
+    width: 80vw;
+  `}
+`;
 
 export const TechSkill = styled.div`
   h3 {
     margin-bottom: 20px;
   }
 
-  ${media.lessThan("large")`
-    margin-left: 30px;
-  `}
+  @media (max-width: 960px) {
+    margin-top: 80px;
+  }
 
   ${media.lessThan("medium")`
     margin-left: 0;
-    margin-top: 100px;
+  `}
+
+  ${media.lessThan("small")`
+    max-width: 350px;
   `}
 `;

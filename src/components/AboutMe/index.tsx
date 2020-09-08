@@ -46,7 +46,7 @@ const AboutMe = () => {
         <Styled.TechSkill>
           <h3>Qualifications & Experiences</h3>
 
-          {skills.map(skill => <Tech level={skill.level} name={skill.name} />)}
+          {skills.map(skill => <Tech key={skill.name} level={skill.level} name={skill.name} />)}
         </Styled.TechSkill>
       </Styled.Middle>
 

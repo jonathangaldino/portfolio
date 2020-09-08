@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import media from "styled-media-query";
+
 
 export const Container = styled.section`
   display: flex;
@@ -12,7 +14,6 @@ export const Container = styled.section`
     margin-bottom: 110px;
   }
 
-  
 `;
 
 export const Middle = styled.div`
@@ -20,11 +21,19 @@ export const Middle = styled.div`
   flex-direction: row;
   justify-content: space-between;
 
-
   img {
     width: 350px;
     height: 350px;
     border-radius: 4px;
+  }
+
+  @media (max-width: 980px) {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      /* max-width: 300px; */
+    }
   }
 `;
 
@@ -40,12 +49,24 @@ export const Text = styled.div`
     align-self: center;
     text-align: justify;
   }
+
+  /* ${media.lessThan("medium")`
+    width: 80vw;
+  `} */
 `;
 
-
 export const TechSkill = styled.div`
+  margin-left: 30px;
 
   h3 {
     margin-bottom: 20px;
   }
+
+  @media (max-width: 980px) {
+    margin-top: 80px;
+  }
+
+  ${media.lessThan("small")`
+    max-width: 350px;
+  `}
 `;

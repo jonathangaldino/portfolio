@@ -24,11 +24,11 @@ const Portfolio: React.FC = () => {
         </Styled.Projects>
       </Styled.Content>
 
-      <Styled.Github href="https://github.com/jonathangaldino/" target="__blank">
+      {/* <Styled.Github href="https://github.com/jonathangaldino/" target="__blank">
           <img src="/github.svg" alt="Github Icon" />
           <p>Github Projects</p>
           <small/>
-      </Styled.Github>
+      </Styled.Github> */}
     </Styled.Container>
   )
 }

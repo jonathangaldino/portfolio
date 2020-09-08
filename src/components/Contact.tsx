@@ -52,6 +52,8 @@ const Header = styled.div`
 
   p {
     font-size: 16px;
+    max-width: 450px;
+    text-align: center;
   }
 `;
 

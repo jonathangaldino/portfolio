@@ -18,7 +18,7 @@ export const Container = styled.div`
   `}
 
   ${media.lessThan("small")`
-    max-width: 85vw;
+    /* max-width: 85vw; */
 
     img {
       width: 85vw;

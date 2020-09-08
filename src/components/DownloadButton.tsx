@@ -6,7 +6,7 @@ interface Props {
 }
 
 const DownloadButton: React.FC<Props> = ({ text }) => (
-  <Container>
+  <Container href="/JonathanGaldino_CV.pdf" download>
     <img src="/download.svg" alt="Download Icon" />
     <p>{text}</p>
   </Container>
@@ -22,6 +22,8 @@ const Container = styled.a`
 
   margin-top: 35px;
   padding: 0px 20px;
+
+  text-decoration: none;
   
   /* border-top-right-radius: 22.5px; */
   /* border-bottom-right-radius: 22.5px; */

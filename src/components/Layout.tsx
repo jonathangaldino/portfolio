@@ -13,7 +13,7 @@ export default Layout;
 
 const Container = styled.main`
   width: 100%;
-  padding: 0 20% 30px;
+  padding: 0 25% 30px;
 
   ${media.lessThan("medium")`
     margin: 0;

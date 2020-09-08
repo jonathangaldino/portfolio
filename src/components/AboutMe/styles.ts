@@ -27,7 +27,7 @@ export const Middle = styled.div`
     border-radius: 4px;
   }
 
-  @media (max-width: 980px) {
+  @media (max-width: 1100px) {
     flex-direction: column;
     align-items: center;
 
@@ -62,7 +62,7 @@ export const TechSkill = styled.div`
     margin-bottom: 20px;
   }
 
-  @media (max-width: 980px) {
+  @media (max-width: 1100px) {
     margin-top: 80px;
   }
 

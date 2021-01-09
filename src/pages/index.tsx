@@ -1,8 +1,6 @@
 
 import Head from 'next/head';
 import styled from 'styled-components';
-
-import styled from 'styled-components';
 import Home from '@components/Home';
 import AboutMe from '@components/AboutMe';
 import Portfolio from '@components/Portfolio';

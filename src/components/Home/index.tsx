@@ -5,7 +5,7 @@ const Home = () => {
     <Styled.Container>
       <Styled.Me>
         <h1>Jonathan Galdino</h1>
-        <strong>Node.js Back-end Developer &amp; Fullstack aspiring</strong>
+        <strong>Node.js Software Engineer &amp; Fullstack aspiring</strong>
       </Styled.Me>
     </Styled.Container>
   )

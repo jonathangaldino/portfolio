@@ -10,16 +10,13 @@ export const Container = styled.section`
     font-size: 48px;
     margin-top: 70px;
     margin-bottom: 110px;
-  }
-
-  
+  }  
 `;
 
 export const Middle = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 
   img {
     width: 350px;
@@ -44,7 +41,7 @@ export const Text = styled.div`
 
 
 export const TechSkill = styled.div`
-
+  margin-left: 1.5%;
   h3 {
     margin-bottom: 20px;
   }

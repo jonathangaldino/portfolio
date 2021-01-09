@@ -22,7 +22,7 @@ const skills: Skill[] = [
   },
   {
     name: 'Typescript',
-    level: 0.55,
+    level: 0.65,
   },
   {
     name: 'SQL & No-SQL databases',
@@ -44,7 +44,7 @@ const AboutMe = () => {
         <img src="/me.png" alt="Jonathan Galdino" />
 
         <Styled.TechSkill>
-          <h3>Qualifications & Experiences</h3>
+          <h3>Technologies &amp; Expertise</h3>
 
           {skills.map(skill => <Tech level={skill.level} name={skill.name} />)}
         </Styled.TechSkill>
@@ -52,16 +52,17 @@ const AboutMe = () => {
 
       <Styled.Text>
         <h3>
-          My name is Jonathan and I’m from Rio de Janeiro, Brazil. I work for small and medium sized agencies, as a 
-          freelancer. Now, I’m working at PlayerUm, a software company stablished in 
-          Copacabaca, Rio de Janeiro, as a back-end developer. In my daily routine I have the pleasure to work with Typescript and Javascript, GraphQL, Docker, 
-          MySQL & MongoDB databases. I don't limit myself to a specific technology or ecosystem, I prefer learn what can help me achieve my goals. I'm gaming addicted.
+          My name is Jonathan and I’m a software engineer @ Midway, a Riachuelo company. Right now I'm trying to put my name out there as a freelancer.
+          I had some experiences working for small and medium sized agencies in the past, I miss those old days.
+        </h3>
+        <h3>
+          My background is around these abilities I mentioned before. I like gaming with friends, lo-fi and my dogs.
         </h3>
 
-        <DownloadButton text="Resume">
+        {/* <DownloadButton text="Resume">
           <img src="/download.svg" alt="Download Icon" />
           <p>Resume</p>
-        </DownloadButton>
+        </DownloadButton> */}
       </Styled.Text>
     </Styled.Container>
   )

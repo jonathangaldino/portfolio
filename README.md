@@ -1,10 +1,11 @@
 # ⭐ Portfolio
 
-> 😎 This is my portfolio - created with 💗 using React/TS & Styled-Components
+> 😎 This is my portfolio - created with 💗 using NextJS, Typescript & Styled-Components
 
-## 📌 Demo
+## 📌 Roadmap
 
-> ❌ Not available yet
+> Mobile version (Responsivity)
+> Add links to download my own resume
 
 # 📄 Scripts
 
@@ -29,15 +30,6 @@ Start the development server
 $ yarn start
 ```
 
-## 💎 Production
-
-```bash
-$ yarn build
-```
-
-# 👑 Author
-
-[Jonathan Galdino](https://github.com/jonathangaldino)
 
 # ❗ License
 

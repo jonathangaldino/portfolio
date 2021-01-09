@@ -1,6 +1,6 @@
 import * as Styled from './styles';
 import Tech from '@components/Tech';
-import DownloadButton from '@components/DownloadButton';
+// import DownloadButton from '@components/DownloadButton';
 
 interface Skill {
   name: string;

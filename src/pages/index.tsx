@@ -1,17 +1,21 @@
 
 import Head from 'next/head';
 
-import * as Styled from './_indexStyles';
+import styled from 'styled-components';
 import Home from '@components/Home';
 import AboutMe from '@components/AboutMe';
 import Portfolio from '@components/Portfolio';
 import Layout from '@components/Layout';
 import Contact from '@components/Contact';
 
+export const Container = styled.section`
+  height: 100%;
+  background-color: red;
+`;
 
 const App = () => {
   return (
-    <Styled.Container>
+    <Container>
       <Head>
         <title>Jonathan Galdino</title>
       </Head>
@@ -23,7 +27,7 @@ const App = () => {
         <Portfolio />
         <Contact />
       </Layout>    
-    </Styled.Container>
+    </Container>
   )
 }
 

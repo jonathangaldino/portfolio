@@ -2,12 +2,17 @@
 import Head from 'next/head';
 import styled from 'styled-components';
 
+import styled from 'styled-components';
 import Home from '@components/Home';
 import AboutMe from '@components/AboutMe';
 import Portfolio from '@components/Portfolio';
 import Layout from '@components/Layout';
 import Contact from '@components/Contact';
 
+export const Container = styled.section`
+  height: 100%;
+  background-color: red;
+`;
 
 const App = () => {
   return (
@@ -25,11 +30,6 @@ const App = () => {
       </Layout>    
     </Container>
   )
-}
-
-export const Container = styled.section`
-  height: 100%;
-  width: 100%;
-`;
+};
 
 export default App;

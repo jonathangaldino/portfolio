@@ -12,8 +12,7 @@ export const Container = styled.section`
     font-size: 48px;
     margin-top: 70px;
     margin-bottom: 110px;
-  }
-
+  }  
 `;
 
 export const Middle = styled.div`
@@ -56,8 +55,7 @@ export const Text = styled.div`
 `;
 
 export const TechSkill = styled.div`
-  margin-left: 30px;
-
+  margin-left: 1.5%;
   h3 {
     margin-bottom: 20px;
   }

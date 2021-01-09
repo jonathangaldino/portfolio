@@ -10,9 +10,9 @@ export interface Props {
 const Links: React.FC<Props> = ({ web, apple, google}) => {
   return (
     <Container>
-      <Link href={web} target="__blank" shouldDisable={web ? false : true}>
+      {/* <Link href={web} target="__blank" shouldDisable={web ? false : true}>
         <img src="/browser.svg" alt="Browser" />
-      </Link>
+      </Link> */}
 
       <Link href={apple} target="__blank" shouldDisable={apple ? false : true}>
         <img src="/applestore.svg" alt="Browser" />

@@ -12,9 +12,9 @@ const Portfolio: React.FC = () => {
 
       <Styled.Content>
         <Styled.Projects>
-          {projects.map(project => 
-            <Project 
-              key={project.title} 
+          {projects.map(project =>
+            <Project
+              key={project.title}
               title={project.title}
               description={project.description}
               imageSrc={project.imageSrc}
@@ -23,12 +23,6 @@ const Portfolio: React.FC = () => {
           )}
         </Styled.Projects>
       </Styled.Content>
-
-      {/* <Styled.Github href="https://github.com/jonathangaldino/" target="__blank">
-          <img src="/github.svg" alt="Github Icon" />
-          <p>Github Projects</p>
-          <small/>
-      </Styled.Github> */}
     </Styled.Container>
   )
 }

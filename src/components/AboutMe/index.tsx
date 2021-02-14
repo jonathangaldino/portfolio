@@ -33,7 +33,7 @@ const skills: Skill[] = [
     level: 0.50,
   }
 ];
-  
+
 
 const AboutMe = () => {
   return (
@@ -52,11 +52,11 @@ const AboutMe = () => {
 
       <Styled.Text>
         <h3>
-          My name is Jonathan and I’m a software engineer @ Midway, a Riachuelo company. Right now I'm trying to put my name out there as a freelancer.
-          I had some experiences working for small and medium sized agencies in the past, I miss those old days.
+          A young & bold software developer alocated in Rio de Janeiro, Brazil. I've been coding for the past 2 years, from the backend
+          to the mobile world, I've touched and writed lines of code using different technologies and approachs.
         </h3>
         <h3>
-          My background is around these abilities I mentioned before. I like gaming with friends, lo-fi and my dogs.
+          Other than that I like PC Gaming, my dogs and to relax at the beach &#x1F334;.
         </h3>
 
         {/* <DownloadButton text="Resume">

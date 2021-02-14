@@ -2,25 +2,36 @@ import React from 'react';
 import styled from 'styled-components';
 
 export interface Props {
-  web?: string;
   apple?: string;
   google?: string;
+  github?: string;
 }
 
-const Links: React.FC<Props> = ({ apple, google}) => {
+const Links: React.FC<Props> = ({ apple, google, github }) => {
+
+  const hasAppleLink = apple ? true : false;
+  const hasGoogleLink = google ? true : false;
+  const hasGithubLink = github ? true : false;
+
   return (
     <Container>
-      {/* <Link href={web} target="__blank" shouldDisable={web ? false : true}>
-        <img src="/browser.svg" alt="Browser" />
-      </Link> */}
+      {
+        hasAppleLink && <Link href={apple} target="__blank">
+          <img src="/applestore.svg" alt="Browser" />
+        </Link>
+      }
 
-      <Link href={apple} target="__blank" shouldDisable={apple ? false : true}>
-        <img src="/applestore.svg" alt="Browser" />
-      </Link>
+      {
+        hasGoogleLink && <Link href={google} target="__blank">
+          <img src="/googlestore.svg" alt="Browser" />
+        </Link>
+      }
 
-      <Link href={google} target="__blank" shouldDisable={google ? false : true}>
-        <img src="/googlestore.svg" alt="Browser" />
-      </Link>
+      {
+        hasGithubLink && <Link href={github} target="__blank">
+          <img src="/github.svg" alt="Browser" />
+        </Link>
+      }
     </Container>
   )
 };
@@ -37,8 +48,6 @@ interface LinkProps {
 }
 
 const Link = styled.a<LinkProps>`
-  opacity: ${props => props.shouldDisable ? 0.4 : 1};
-
   img {
     width: 38px;
     height: 38px;

@@ -52,17 +52,16 @@ const AboutMe = () => {
 
       <Styled.Text>
         <h3>
-          A young & bold software developer alocated in Rio de Janeiro, Brazil. I've been coding for the past 2 years, from the backend
+          A young & bold Software Developer alocated in Rio de Janeiro, Brazil. I've been coding for the past 2 years, from the backend
           to the mobile world, I've touched and writed lines of code using different technologies and approachs.
         </h3>
         <h3>
           Other than that I like PC Gaming, my dogs and to relax at the beach &#x1F334;.
         </h3>
 
-        {/* <DownloadButton text="Resume">
-          <img src="/download.svg" alt="Download Icon" />
-          <p>Resume</p>
-        </DownloadButton> */}
+        <Styled.DownloadButton>
+          <a href="/Jonathan-Resume.pdf" target="__blank">Open Professional Résumé</a>
+        </Styled.DownloadButton>
       </Styled.Text>
     </Styled.Container>
   )

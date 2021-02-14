@@ -43,11 +43,8 @@ const Container = styled.div`
 
 `;
 
-interface LinkProps {
-  shouldDisable?: boolean;
-}
 
-const Link = styled.a<LinkProps>`
+const Link = styled.a`
   img {
     width: 38px;
     height: 38px;

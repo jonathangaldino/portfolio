@@ -41,7 +41,7 @@ const AboutMe = () => {
       <h1>About Me</h1>
 
       <Styled.Middle>
-        <img src="/me.png" alt="Jonathan Galdino" />
+        <img src="/me.webp" alt="Jonathan Galdino" />
 
         <Styled.TechSkill>
           <h3>Technologies &amp; Expertise</h3>

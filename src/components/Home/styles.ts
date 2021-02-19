@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   background-color: ${props => props.theme.colors.background};
-  background-image: url("/background.jpg");
+  background-image: url("/background.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

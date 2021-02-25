@@ -10,10 +10,10 @@ export interface IProject {
 const projects: IProject[] = [
   {
     title: 'Taiyo Sushi - Mobile App',
-    description: `An app to order japanese food from Taiyo\'s store, created 
-    with React Native, Typescript & Redux. With this app, it's possible to see 
-    the menu of the restaurant, book a table and exchange Taiyo\'s 
-    premium points in items like t-shirts and hats.`,
+    description: `An app to order japanese food from Taiyo\'s store. The users of the app will be able to see the
+    menu of the restaurant, book a table and exchange Taiyo\'s 
+    premium points in items like t-shirts and hats. This app was created using
+    React Native, Typescript and Redux.`,
     imageSrc: '/Taiyosushi.webp',
     links: {
       google: "https://play.google.com/store/apps/details?id=com.tayoapp&hl=pt_BR",

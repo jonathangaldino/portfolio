@@ -9,7 +9,14 @@ const AboutMe = () => {
       <h1>About Me</h1>
 
       <Styled.Middle>
-        <img src="/me.webp" alt="Jonathan Galdino" />
+
+        <picture>
+          {/* Use if possible */}
+          <source type="image/webp" srcSet="/me.webp" />
+
+          {/* Fallback */}
+          <img alt="Jonathan's Photo" src="/me.png" />
+        </picture>
 
         <Styled.TechSkill>
           <h3>Technologies &amp; Expertise</h3>

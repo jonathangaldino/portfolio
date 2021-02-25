@@ -33,7 +33,7 @@ const AboutMe = () => {
         </h3>
 
         <Styled.DownloadButton>
-          <a href="/Jonathan-Resume.pdf" target="__blank">Open Professional Résumé</a>
+          <a href="/Jonathan-Resume.pdf" target="__blank">Open Résumé</a>
         </Styled.DownloadButton>
       </Styled.Text>
     </Styled.Container>

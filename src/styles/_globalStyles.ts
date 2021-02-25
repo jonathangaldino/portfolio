@@ -1,23 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-
-  @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Fjalla One';
-    font-style: normal;
-    font-weight: normal;
-    font-display: swap;
-    src: url('/fonts/FjallaOne-Regular.ttf') format('truetype');
-  }
-
   * {
     margin: 0;
     padding: 0;

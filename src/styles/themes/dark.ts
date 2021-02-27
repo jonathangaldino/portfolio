@@ -3,9 +3,8 @@ export default {
 
   colors: {
     background: '#000',
-    texts: '#FFF',
-    textsInverse: '#000',
-    skillbar: '#7A7A7A',
-    skillbarfulfilled: '#FFF'
+    primary: '#7ebdc2',
+    linen: '#efe6dd',
+    links: '#db3a34',
   },
 };

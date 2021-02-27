@@ -9,10 +9,10 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${props => props.theme.colors.background};
+    background: #231f20;
     -webkit-font-smoothing: antialiased;
     font-family: 'Roboto', sans-serif;
-    color: ${props => props.theme.colors.texts};
+    color: ${props => props.theme.colors.primary};
     font-weight: normal;
     font-size: 16px;
 
@@ -22,6 +22,11 @@ export default createGlobalStyle`
     
     h1 {
       font-family: 'Fjalla One', sans-serif;
+    }
+
+    a {
+      color: ${props => props.theme.colors.links};
+      text-decoration: none;
     }
   }
 

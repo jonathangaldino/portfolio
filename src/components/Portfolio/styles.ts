@@ -56,7 +56,7 @@ export const Github = styled.a`
 
   border-top-right-radius: 22.5px;
   border-bottom-right-radius: 22.5px;
-  background: ${props => props.theme.colors.texts};
+  background: ${props => props.theme.colors.primary};
 
   text-decoration: none;
 
@@ -69,6 +69,6 @@ export const Github = styled.a`
   }
 
   p {
-    color: ${props => props.theme.colors.textsInverse};
+    color: ${props => red};
   }
 `;

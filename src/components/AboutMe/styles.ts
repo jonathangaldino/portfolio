@@ -11,6 +11,7 @@ export const Container = styled.section`
     font-size: 48px;
     margin-top: 70px;
     margin-bottom: 110px;
+    color: ${props => props.theme.colors.linen};
   }  
 `;
 
@@ -22,7 +23,7 @@ export const Middle = styled.div`
   img {
     width: 350px;
     height: 350px;
-    border-radius: 4px;
+    border-radius: 50%;
   }
 
   @media (max-width: 1100px) {
@@ -53,32 +54,16 @@ export const Text = styled.div`
   `} */
 `;
 
-export const TechSkill = styled.div`
-  margin-left: 1.5%;
-  h3 {
-    margin-bottom: 20px;
-  }
-
-  @media (max-width: 1100px) {
-    margin-top: 80px;
-  }
-
-  ${media.lessThan("small")`
-    max-width: 350px;
-  `}
-`;
-
 export const DownloadButton = styled.div`
   margin-top: 35px;
   display: inline-block;
   text-align: center;
-  background: ${props => props.theme.colors.texts};
-  color: ${props => props.theme.colors.textsInverse};
+  background: ${props => props.theme.colors.primary};
+  color: red;
   font-weight: bold;
   padding: 1.18em 1em 1.03em;
   line-height: 1;
   border-radius: 0.3em;
-  position: relative;
   min-width: 8.23em;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -87,7 +72,7 @@ export const DownloadButton = styled.div`
 
   a {
     text-decoration: none;
-    color: ${props => props.theme.colors.textsInverse};
+    color: ${props => props.theme.colors.primary};
   }
 `;
 

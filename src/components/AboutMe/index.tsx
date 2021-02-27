@@ -1,28 +1,14 @@
 import * as Styled from './styles';
-import Tech from '@components/AboutMe/Tech';
 
-import { skills } from './skills.data';
+import Profile from './Profile/profile.component';
 
 const AboutMe = () => {
   return (
     <Styled.Container>
-      <h1>About Me</h1>
+      <h1>Biography</h1>
 
       <Styled.Middle>
-
-        <picture>
-          {/* Use if possible */}
-          <source type="image/webp" srcSet="/me.webp" />
-
-          {/* Fallback */}
-          <img alt="Jonathan's Photo" src="/me.png" />
-        </picture>
-
-        <Styled.TechSkill>
-          <h3>Technologies &amp; Expertise</h3>
-
-          {skills.map(skill => <Tech key={skill.name} level={skill.level} name={skill.name} />)}
-        </Styled.TechSkill>
+        <Profile />
       </Styled.Middle>
 
       <Styled.Text>

@@ -38,9 +38,9 @@ export const Button = styled.button`
   border-radius: 10px;
   border: 0;
   
-  background: ${props => props.theme.colors.texts};
+  background: ${props => props.theme.colors.primary};
   
-  color: ${props => props.theme.colors.textsInverse};
+  color: ${props => red};
   font-size: 16px;
   font-weight: bold;
 `;

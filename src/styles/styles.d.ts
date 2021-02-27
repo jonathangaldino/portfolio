@@ -6,10 +6,9 @@ declare module 'styled-components' {
 
     colors: {
       background: string;
-      texts: string;
-      textsInverse: string;
-      skillbar: string;
-      skillbarfulfilled: string;
+      primary: string;
+      linen: string;
+      links: string;
     };
   }
 }

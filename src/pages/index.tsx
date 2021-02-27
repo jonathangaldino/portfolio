@@ -19,13 +19,13 @@ const App = () => {
         <title>Jonathan Galdino</title>
       </Head>
 
-      <Home /> 
-      
+      <Home />
+
       <Layout>
         <AboutMe />
         <Portfolio />
         <Contact />
-      </Layout>    
+      </Layout>
     </Container>
   )
 };

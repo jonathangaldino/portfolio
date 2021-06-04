@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import media from 'styled-media-query';
+import styled from "styled-components";
+import media from "styled-media-query";
 
 export const Container = styled.section`
   display: flex;
@@ -11,7 +11,7 @@ export const Container = styled.section`
     font-size: 48px;
     margin-top: 70px;
     margin-bottom: 110px;
-  }  
+  }
 `;
 
 export const Middle = styled.div`
@@ -22,7 +22,7 @@ export const Middle = styled.div`
   img {
     width: 350px;
     height: 350px;
-    border-radius: 4px;
+    border-radius: 12px;
   }
 
   @media (max-width: 1100px) {
@@ -55,6 +55,7 @@ export const Text = styled.div`
 
 export const TechSkill = styled.div`
   margin-left: 1.5%;
+
   h3 {
     margin-bottom: 20px;
   }
@@ -66,14 +67,41 @@ export const TechSkill = styled.div`
   ${media.lessThan("small")`
     max-width: 350px;
   `}
+
+  ${media.lessThan("large")`
+    h3 {
+      text-align: center;
+    }
+  `}
+
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+
+    span {
+      color: ${(props) => props.theme.colors.textsInverse};
+      font-weight: bold;
+
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      background: ${(props) => props.theme.colors.texts};
+      border-radius: 10px;
+      margin-right: 5px;
+      margin-bottom: 20px;
+    }
+  }
 `;
 
 export const DownloadButton = styled.div`
   margin-top: 35px;
   display: inline-block;
   text-align: center;
-  background: ${props => props.theme.colors.texts};
-  color: ${props => props.theme.colors.textsInverse};
+  background: ${(props) => props.theme.colors.texts};
+  color: ${(props) => props.theme.colors.textsInverse};
   font-weight: bold;
   padding: 1.18em 1em 1.03em;
   line-height: 1;
@@ -81,13 +109,11 @@ export const DownloadButton = styled.div`
   position: relative;
   min-width: 8.23em;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
-
 
   a {
     text-decoration: none;
-    color: ${props => props.theme.colors.textsInverse};
+    color: ${(props) => props.theme.colors.textsInverse};
   }
 `;
-

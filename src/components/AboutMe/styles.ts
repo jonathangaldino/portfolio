@@ -14,16 +14,19 @@ export const Container = styled.section`
     margin-bottom: 110px;
   }
 
-  /* background: #9bc4bc; */
-
   img {
     width: 350px;
     height: 350px;
     border-radius: 50%;
+
+    ${media.lessThan("small")`
+      width: 300px;
+      height: 300px;
+    `}
   }
 
   a {
-    margin-top: 30px;
+    margin-top: 50px;
     text-decoration: none;
     color: ${(props) => props.theme.colors.texts};
     transition: 0.3s;
@@ -37,14 +40,14 @@ export const Container = styled.section`
     margin-top: 65px;
     text-align: center;
     max-width: 700px;
+
+    ${media.lessThan("medium")`
+      text-align: justify;
+    `}
   }
 
   @media (max-width: 1100px) {
     flex-direction: column;
     align-items: center;
-
-    img {
-      /* max-width: 300px; */
-    }
   }
 `;

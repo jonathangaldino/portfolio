@@ -1,15 +1,15 @@
-import 'styled-components';
+import "styled-components";
 
-declare module 'styled-components' {
+declare module "styled-components" {
   export interface DefaultTheme {
     title: string;
 
     colors: {
       background: string;
       texts: string;
+      blue: string;
       textsInverse: string;
-      skillbar: string;
-      skillbarfulfilled: string;
+      skillbg: string;
     };
   }
 }

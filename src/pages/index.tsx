@@ -1,11 +1,11 @@
-
-import Head from 'next/head';
-import styled from 'styled-components';
-import Home from '@components/Home';
-import AboutMe from '@components/AboutMe';
-import Portfolio from '@components/Portfolio';
-import Layout from '@components/Layout';
-import Contact from '@components/Contact';
+import Head from "next/head";
+import styled from "styled-components";
+import Home from "@components/Home";
+import AboutMe from "@components/AboutMe";
+import Portfolio from "@components/Portfolio";
+import Layout from "@components/Layout";
+import Contact from "@components/Contact";
+import Technologies from "@components/Technologies";
 
 export const Container = styled.section`
   height: 100%;
@@ -19,15 +19,16 @@ const App = () => {
         <title>Jonathan Galdino</title>
       </Head>
 
-      <Home /> 
-      
+      <Home />
+
       <Layout>
         <AboutMe />
+        <Technologies />
         <Portfolio />
         <Contact />
-      </Layout>    
+      </Layout>
     </Container>
-  )
+  );
 };
 
 export default App;

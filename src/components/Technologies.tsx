@@ -27,7 +27,7 @@ const Technologies = () => {
 
       <div>
         {Object.keys(techs).map((tech) => (
-          <span>
+          <span key={tech}>
             <img src={techs[tech]} alt="Browser" />
           </span>
         ))}

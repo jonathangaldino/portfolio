@@ -18,6 +18,7 @@ export const Container = styled.section`
     width: 350px;
     height: 350px;
     border-radius: 50%;
+    transition: 0.3s;
 
     ${media.lessThan("small")`
       width: 300px;

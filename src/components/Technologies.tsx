@@ -47,7 +47,6 @@ const Container = styled.section`
     align-self: center;
     text-transform: uppercase;
     font-size: 48px;
-    margin-top: 70px;
     margin-bottom: 110px;
   }
 

@@ -6,10 +6,10 @@ const Contact: React.FC = () => (
 
   <Header>
     <h1>Contact</h1>
-    <p>
+    <h3>
     Are you looking for someone to help build and deliver software?
-    I'm always up for a challenge. Reach me out. I can help you.
-    </p>
+    Let's talk! I'm always up for a challenge.
+    </h3>
   </Header>
 
   <Socials>
@@ -38,7 +38,7 @@ const Container = styled.div`
   align-items: center;
 `;
 
-const Header = styled.div`
+const Header = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,8 +50,8 @@ const Header = styled.div`
     font-size: 48px;
   }
 
-  p {
-    font-size: 16px;
+  h3 {
+    /* font-size: 16px; */
     max-width: 450px;
     text-align: center;
   }

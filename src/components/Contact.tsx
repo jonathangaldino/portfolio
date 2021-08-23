@@ -6,24 +6,24 @@ const Contact: React.FC = () => (
 
   <Header>
     <h1>Contact</h1>
-    <p>
+    <h3>
     Are you looking for someone to help build and deliver software?
-    I'm always up for a challenge. Reach me out. I can help you.
-    </p>
+    Let's talk! I'm always up for a challenge.
+    </h3>
   </Header>
 
   <Socials>
     <Social href="https://twitter.com/johnhashed" target="__blank">
-      <img src="/twitter.svg" alt="Github Social Link"  width="22" height="22" />
+      <img src="/twitter.svg" alt="Github Social Link" width="22" height="auto" />
     </Social>
     <Social href="https://www.linkedin.com/in/jonathangaldinodev/" target="__blank">
-      <img src="/linkedin.svg" alt="Github Social Link"  width="22" height="22" />
+      <img src="/linkedin.svg" alt="Github Social Link" width="22" height="auto" />
     </Social>
     <Social href="mailto:jonathangaldino@outlook.com">
-      <img src="/mail.svg" alt="Github Social Link"  width="22" height="22" />
+      <img src="/mail.svg" alt="Github Social Link" width="22" height="auto" />
     </Social>
     <Social href="https://github.com/jonathangaldino" target="__blank">
-      <img src="/github.svg" alt="Github Social Link" width="22" height="22" />
+      <img src="/github.svg" alt="Github Social Link" width="22" height="auto" />
     </Social>
   </Socials>
 
@@ -38,7 +38,7 @@ const Container = styled.div`
   align-items: center;
 `;
 
-const Header = styled.div`
+const Header = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,8 +50,8 @@ const Header = styled.div`
     font-size: 48px;
   }
 
-  p {
-    font-size: 16px;
+  h3 {
+    /* font-size: 16px; */
     max-width: 450px;
     text-align: center;
   }
@@ -74,11 +74,6 @@ const Social = styled.a`
   justify-content: center;
   
   margin-right: 15px;
-
-  img {
-    width: 22px;
-    width: 22px;
-  }
 `;
 
 export default Contact;

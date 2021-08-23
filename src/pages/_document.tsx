@@ -39,6 +39,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta name="description" content="A software engineer's portfolio mainly focused on Node.js and other tools around the JS ecosystem." />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="preload"

@@ -14,16 +14,16 @@ const Contact: React.FC = () => (
 
   <Socials>
     <Social href="https://twitter.com/johnhashed" target="__blank">
-      <img src="/twitter.svg" alt="Github Social Link"  width="22" height="22" />
+      <img src="/twitter.svg" alt="Github Social Link" width="22" />
     </Social>
     <Social href="https://www.linkedin.com/in/jonathangaldinodev/" target="__blank">
-      <img src="/linkedin.svg" alt="Github Social Link"  width="22" height="22" />
+      <img src="/linkedin.svg" alt="Github Social Link" width="22" />
     </Social>
     <Social href="mailto:jonathangaldino@outlook.com">
-      <img src="/mail.svg" alt="Github Social Link"  width="22" height="22" />
+      <img src="/mail.svg" alt="Github Social Link" width="22" />
     </Social>
     <Social href="https://github.com/jonathangaldino" target="__blank">
-      <img src="/github.svg" alt="Github Social Link" width="22" height="22" />
+      <img src="/github.svg" alt="Github Social Link" width="22" />
     </Social>
   </Socials>
 
@@ -74,11 +74,6 @@ const Social = styled.a`
   justify-content: center;
   
   margin-right: 15px;
-
-  img {
-    width: 22px;
-    width: 22px;
-  }
 `;
 
 export default Contact;

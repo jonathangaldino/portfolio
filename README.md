@@ -4,8 +4,8 @@
 
 ## 📌 Roadmap
 
-- [ ] Mobile version (Responsivity)  
-- [ ] Add links to download my own resume
+- [x] Mobile version (Responsivity)  
+- [x] Add links to download my own resume
 
 # 📄 Scripts
 

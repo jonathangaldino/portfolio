@@ -21,7 +21,7 @@ const AboutMe = () => {
         build custom keyboards and to spent time with my dogs.
       </h3>
 
-      <a href="/Jonathan-Resume.pdf" target="__blank">
+      <a href="/jonathan-galdino-resume.pdf" target="__blank">
         Click here to open my résumé
       </a>
     </Styled.Container>
